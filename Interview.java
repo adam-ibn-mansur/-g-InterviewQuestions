@@ -24,7 +24,7 @@ public class Interview {
 
   //This one was the hardest one. 
   public void twoCardsFromShuffledDeck() {
-    System.out.println("\nDraw two cards from a shuffled standard playing card deck of 52 cards.");
+    System.out.println("\n\nDraw two cards from a shuffled standard playing card deck of 52 cards.");
 
     String[] SUITS = {"Clubs", "Diamonds", "Hearts", "Spades"}; //initialising the suits of the deck in a String array named 'SUITS'
     String[] RANKS = {"2", "3", "4", "5", "6", "7", "8", "9", "10","Jack", "Queen", "King", "Ace"}; //Same thing here, but with the 13 different ranks of cards.
@@ -55,7 +55,7 @@ public class Interview {
   }
 
   public int sumBetweenXandY() {
-    System.out.println("Assuming you have two integers, x and y, with y being greater than x, sum all the numbers from x to y.");
+    System.out.println("\n\nAssuming you have two integers, x and y, with y being greater than x, sum all the numbers from x to y.");
     //for example, if x is 3, and y = 10, return the sum 3+4+5+6+7+8+9+10
      JFrame f = new JFrame();
      String inputX = JOptionPane.showInputDialog(f, "Please enter x: ");
