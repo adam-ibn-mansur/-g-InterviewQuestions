@@ -51,7 +51,7 @@ public class Interview {
       System.out.print(deck[i] + "\t"); //displaying a random card
     }
     
-    //I could have just called 
+    //I could have just called deck[0] and deck[1], but in the event I need to draw more cards, that would be inefficient.
   }
 
   public int sumBetweenXandY() {
